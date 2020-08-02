@@ -526,6 +526,7 @@ footer .fa-github:active {
  /* small tablet to big tablets: from 768px - 1023px */
 @media only screen and (max-width: 1023px) {
     body { overflow-x: hidden !important; }
+    #full-layout { background-attachment: inherit;}
     
  .mobile-nav-toggle {
   position: fixed;
@@ -597,6 +598,7 @@ footer .fa-github:active {
   /* small phones to small tablets: from 481px - 767px */
 @media only screen and (max-width: 767px) {
     body { overflow-x: hidden !important; }
+    #full-layout { background-attachment: inherit;}
     h1 { font-size: 40px; }
     .para { font-size: 15px;}
     
@@ -615,6 +617,7 @@ footer .fa-github:active {
 @media only screen and (max-width: 321px) {
     h1 { font-size: 35px; }
     body { overflow-x: hidden !important; }
+    #full-layout { background-attachment: inherit;}
 }
     
     
