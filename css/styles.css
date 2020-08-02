@@ -26,24 +26,13 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-/*
-#full-layout {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpg);
-    min-height: 100vh;
-    top: 0;
-    left: 0; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-*/
+
 
 h1, h2, h3, h4, h5, h6 {
     color: #fff; 
@@ -226,7 +215,7 @@ hr.divider {
 }
 
 .text-intro {
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .para {
@@ -251,6 +240,56 @@ hr.divider {
     color: #17a2b8;
     transition-duration: 500ms;
 }
+
+
+.scroll-button {
+    margin-top: 120px;
+}
+
+.scroll-button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    z-index: 9999999;
+    transition-duration: 500ms;
+}
+
+.scroll-button a:hover {
+    color: #17a2b8;
+    
+}
+
+.scroll-button i {
+   
+    font-size: 50px;
+    display: block;
+   
+    margin: 20px 0 20px 40%;
+    
+}
+
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
 
 
 
@@ -544,7 +583,7 @@ footer .fa-github:active {
  /* small tablet to big tablets: from 768px - 1023px */
 @media only screen and (max-width: 1023px) {
     body { overflow-x: hidden !important; }
-   /* #full-layout { background-attachment: inherit;} */
+   
     
  .mobile-nav-toggle {
   position: fixed;
@@ -616,7 +655,7 @@ footer .fa-github:active {
   /* small phones to small tablets: from 481px - 767px */
 @media only screen and (max-width: 767px) {
     body { overflow-x: hidden !important; }
-   /* #full-layout { background-attachment: inherit;} */
+  
     h1 { font-size: 40px; }
     .para { font-size: 15px;}
     
@@ -635,7 +674,7 @@ footer .fa-github:active {
 @media only screen and (max-width: 321px) {
     h1 { font-size: 35px; }
     body { overflow-x: hidden !important; }
-   /* #full-layout { background-attachment: inherit;} */
+  
 }
     
     
