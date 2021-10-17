@@ -410,6 +410,8 @@ hr.divider {
 }
 
 #portfolio .card {
+  
+    height: 100%;
     box-shadow: 2px 2px 2px #17a2b8;
     transition: transform 0.5s;
     background-color: rgba(0, 0, 0, 0.5);
@@ -450,6 +452,13 @@ hr.divider {
 }
 
 
+.margin-t {
+  margin-top: 40px !important;
+}
+
+.margin-t2 {
+  margin-top: 60px !important;
+}
 
 
 /*--------------------------------------------------------------
